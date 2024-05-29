@@ -1,0 +1,143 @@
+body{
+    background: ;
+    margin: 0;
+    width: 100%;
+    height: 150vh;
+    background: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 160vh;
+}
+
+.links{
+    height: 24vh;
+    max-width: 40%;
+    background: black;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    display: flex;   
+    justify-content: center;
+    flex-direction: center;
+    position: fixed;
+    transition: 2s ease-in-out;   
+}
+.links a:hover{
+    background: orange;
+    height: 5%;
+    width: 10%;
+}
+.logo{
+    margin-left: 2%;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+   
+     
+    
+    
+}
+.links ul{
+    position: absolute;
+    bottom: 5%;
+    margin: 2%;
+}
+.links ul li{
+    list-style: none;
+   
+   
+}
+nav{
+    background: black;
+    height: 50px;
+    display: flex;                
+}
+.links.active{
+    right: 0;
+    width: 50%;
+    
+}
+
+.bar{
+    height: 70px;
+    width: 50px;
+    background: ;
+    margin-left: auto;
+    position: relative;
+    
+}
+.logo{
+    color: white;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.bar img{
+    height: 40px;
+    
+}
+.bio{
+    margin-left: 2%;
+}
+.bio img{
+    height: 10%;
+    width: 20%;
+    box-shadow: 2.5px 5px 2.5px black;
+    border-radius: 10px;
+    filter: contrast(2px);
+    animation-name: loadingimg;
+    animation-duration: 2s;
+    animation-fillmode: ease-in-out;
+    
+        
+}
+.bio p{
+    opacity: 1;
+    background: black;
+    color: white;
+}
+.bio .image-collection{
+    display: inline-block;
+    margin: 3%;
+}
+
+.dirs{
+    height: 30vh;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+   margin-left: 10%;
+    
+}
+.dirs a{
+    text-decoration: none;
+    color: #00ffeab1;
+} 
+.dirs button{
+   color: #00ffeab1;
+   background: url('nucci.jpg');
+   font-size: 1em;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+}
+.dirs button:hover{
+    box-shadow: 2px 5px 2.5px black;
+}
+.media {
+    position: relative;
+    top: 40%;
+}
+.media ul li a{
+    font-size: 2em;
+    color: purple;
+}
+.media ul li{
+    display: inline-block;
+    margin: 3%;
+    
+    
+}
